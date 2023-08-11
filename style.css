@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(notebook.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.noteList {
+  padding-top: 50px;
+  padding-left: 400px;
+  text-align: left;
+}
+
+#note {
+  width: 30%;
+  background: transparent;
+  background: transparent;
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  border: 2px solid white;
+  border-radius: 50px;
+  transition: 0.5s;
+  cursor: text;
+  padding: 0 10px;
+}
+#saveButton {
+  width: 5%;
+  background: transparent;
+  background: transparent;
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  border: 2px solid white;
+  border-radius: 50px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.newNotes {
+  cursor: grab;
+  width: 10px;
+  font-size: x-large;
+  margin: 11px;
+}
